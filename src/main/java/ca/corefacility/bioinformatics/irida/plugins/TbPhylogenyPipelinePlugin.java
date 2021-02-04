@@ -18,7 +18,7 @@ import ca.corefacility.bioinformatics.irida.service.workflow.IridaWorkflowsServi
  * An example {@link IridaPlugin} implementation which will extract some
  * information from the sequencing reads.
  */
-public class SnippyTbSampleIqtreePipelinePlugin extends Plugin {
+public class TbPhylogenyPipelinePlugin extends Plugin {
 
 	/**
 	 * The {@link AnalysisType} used by this plugin. This wraps around a string and
@@ -27,7 +27,7 @@ public class SnippyTbSampleIqtreePipelinePlugin extends Plugin {
 	 */
 	public static final AnalysisType SNIPPY_PHYLOGENOMICS = new AnalysisType("SNIPPY_PHYLOGENOMICS");
 
-	public SnippyTbSampleIqtreePipelinePlugin(PluginWrapper wrapper) {
+	public TbPhylogenyPipelinePlugin(PluginWrapper wrapper) {
 		super(wrapper);
 	}
 
