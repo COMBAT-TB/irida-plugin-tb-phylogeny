@@ -121,7 +121,7 @@ public class TbPhylogenyPipelinePlugin extends Plugin {
 		// @Override
 		// public Optional<AnalysisSampleUpdater> getUpdater(MetadataTemplateService metadataTemplateService,
 		// 		SampleService sampleService, IridaWorkflowsService iridaWorkflowsService) throws IridaPluginException {
-		// 	return Optional.of(new SnippyTbSampleIqtreePipelinePluginUpdater(metadataTemplateService, sampleService,
+		// 	return Optional.of(new TbPhylogenyPipelinePluginUpdater(metadataTemplateService, sampleService,
 		// 			iridaWorkflowsService));
 		// }
 
